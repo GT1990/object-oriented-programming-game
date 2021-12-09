@@ -60,7 +60,7 @@ class Game {
   }
 
   /**
-   * Methode getRandomPhrase()
+   * Method getRandomPhrase()
    * Randomly retrieves one of the phrases stored in the phrases array and returns it.
    * @returns {Phrase} - random phrase object
    */
