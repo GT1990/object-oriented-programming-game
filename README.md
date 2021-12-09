@@ -6,9 +6,9 @@
 
 # Example
 
-    ![Example](/images/examples/ss_1.png)
-    ![Example](/images/examples/ss_2.png)
-    ![Example](/images/examples/ss_3.png)
+![Example](/images/examples/ss_1.png)
+![Example](/images/examples/ss_2.png)
+![Example](/images/examples/ss_3.png)
 
 # Phrase.js
 
