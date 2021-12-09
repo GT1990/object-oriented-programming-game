@@ -9,11 +9,17 @@ class Game {
         missed: initialized to 0, tracks number of missed guesses.
         phrases: five Phrase class objects array. 
         activePhrase: initialized to null, Phrase object that’s currently in play.
-     * @param  {...string} randomPhrases 
      */
-  constructor(...randomPhrases) {
+  constructor() {
     this.missed = 0;
     this.phrases = [];
+    const randomPhrases = [
+      "Hello World",
+      "Null Pointer",
+      "English Premier League",
+      "Do Not Repeat Yourself",
+      "Full Stack Javascript",
+    ];
     for (let phrase of randomPhrases) {
       const cleanPhrase = phrase.replace(/[^A-Za-z\s]/g, "").trim(); // only letters & spaces
       this.phrases.push(new Phrase(cleanPhrase));
@@ -22,7 +28,7 @@ class Game {
   }
 
   /**
-   * Methode startGame()
+   * Method startGame()
    * Hides start screen overlay, sets activePhrase to random phrase and adds it to  the display.
    */
   startGame() {
